@@ -1,0 +1,33 @@
+/*====SEÇÃO DAS FONTES IMPORTADAS====*/
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Arapey:ital@0;1&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.banner {
+    background-image: url(./img/banner.png);
+    background-position: center;
+    text-align: center;
+    color: white;
+    font-family: "Arapey", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.definicao {
+    color: #dae67f;
+    text-align: center;
+}
+
+.primeira {
+    background-color: #172601;
+}
+
+.container {
+    display: flex;
+}
+

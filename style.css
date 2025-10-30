@@ -27,7 +27,16 @@
     background-color: #172601;
 }
 
-.container {
+.imagens {
+    height: 300px;
+    border-radius: 30px;
+}
+
+.container1 {
+    width: 100%;
     display: flex;
+    justify-content: space-between;
+    gap: 40px;
+
 }
 

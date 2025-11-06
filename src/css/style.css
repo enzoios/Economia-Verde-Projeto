@@ -8,35 +8,14 @@
     box-sizing: border-box;
 }
 
-.banner {
-    background-image: url(./img/banner.png);
+header {
+    background-image: url("../../imagens/banner.png");
     background-position: center;
+}
+
+h1 {
     text-align: center;
     color: white;
     font-family: "Arapey", serif;
     font-weight: 400;
-    font-style: normal;
 }
-
-.definicao {
-    color: #dae67f;
-    text-align: center;
-}
-
-.primeira {
-    background-color: #172601;
-}
-
-.imagens {
-    height: 300px;
-    border-radius: 30px;
-}
-
-.container1 {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
-
-}
-

@@ -3,51 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Economia Verde</title>
+    <title>Economia Verde | ESG | ODS</title>
+
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/eco.css">
 </head>
 <body>
     <header>
-        <h1 class="banner">Economia Verde</h1>
+        <h1 class="logo">Economia Verde | ESG | ODS</h1>
+        
+        <nav>
+            <a href="#eco_container">Economia Verde</a>
+            <a href="#">ESG</a>
+            <a href="#">Objetivos de Desenvolvimento Sustentável</a>
+        </nav>
     </header>
 
     <main>
-        <section class="primeira">
-                <h2 class="definicao">O que é?</h2>
-                <div class="container1">
-                    <img src="./img/imagem-planta-moeda.webp" alt="Imagem genérica de uma planta com moedas" class="imagens">
+        <section id="eco_container">
+            <!-- Sobre economia verde -->
+            <article id="eco_sobre">
+                <h2 class="eco_titulo">O que é?</h2>
+                <div>
+                    <img src="./imagens/imagem-planta-moeda.webp" alt="Imagem genérica de uma planta com moedas" class="eco_imagem">
                     <p>Economia verde é um modelo econômico que busca promover o bem-estar humano e a inclusão social ao mesmo tempo em que reduz os riscos ambientais e a escassez de recursos. Ela se caracteriza por práticas de baixo carbono, uso eficiente de recursos naturais, valorização de energias limpas, gestão adequada de resíduos e fomento à inclusão social, buscando harmonizar o crescimento econômico com a sustentabilidade ambiental. Ela é dividia em 3 pilares:</p>
                 </div>
-        </section>
+            </article>
 
-        <section>
-            <article>
-                <div class="recursos">
-                    <h2>1. Uso Eficiente dos Recursos Naturais</h2>
+            <!-- 1. Uso eficiente dos recursos naturais -->
+            <article id="eco_uso_eficiente">
+                <div>
+                    <h2 class="eco_titulo">1. Uso Eficiente dos Recursos Naturais</h2>
                     <p>O uso eficiente dos recursos naturais significa utilizar matérias-primas, água, energia e outros recursos de forma consciente e otimizada para garantir sua disponibilidade para as gerações futuras, minimizando o desperdício e os impactos ambientais.</p>
-                    <img src="./img/varias-imagens.png" alt="Várias imagens coladas">
                 </div>
-            </article>
-        </section>
+                <img src="./imagens/varias-imagens.png" alt="Várias imagens coladas" class="eco_imagem">
 
-        <section>
-            <article>
-                <h2>2. Inclusão Social e Redução das Desigualdades</h2>
-                <p>A inclusão social e a redução das desigualdades são processos interdependentes que visam garantir que todos os indivíduos tenham as mesmas oportunidades de participar da sociedade e da economia, superando barreiras relacionadas a fatores como classe, gênero, raça e deficiência.</p>
-                <img src="./img/pessoas-genericas-de-pessoas-nada-realista.webp" alt="">
+                <!-- Exemplos -->
+                <h3>Exemplos</h3>
+                <ul class="eco_exemplos_lista">
+                    <li><strong>Economia Circular: </strong>Maximizar a vida últi de materiais e produtos</li>
+                    <li><strong>Eficiência energética: </strong>Reduzir o consumo total de energia e muda para fontes limpas</li>
+                    <li><strong>Gestão Hídrica: </strong>Tratar e reutilizar água</li>
+                    <li><strong>Ecodesign: </strong> Reduzir a quantidade de matéria-prima necessária por produto</li>
+                </ul>
             </article>
-        </section>
 
-        <section>
-            <article>
-                <h2>3. Preservação e Proteção do Meio Ambiente</h2>
-                <p>Preservação e conservação do meio ambiente são conceitos distintos, onde a preservação foca na proteção integral de um ecossistema contra qualquer intervenção humana, enquanto a conservação busca o uso equilibrado e sustentável dos recursos naturais, permitindo o aproveitamento humano sem danificar o ambiente para futuras gerações.</p>
-                <img src="./img/mao-segurando-terra.png" alt="">
+            <!-- 2. Inclusão social e redução das desigualdades-->
+            <article id="eco_inclusao_social">
+                <img src="./imagens/pessoas-genericas-de-pessoas-nada-realista.webp" alt="pessoas genericas em uma chamada de vídeo-chamada rindo e se divertindo" class="eco_imagem">
+                <div>
+                    <h2 class="eco_titulo">2. Inclusão Social e Redução das Desigualdades</h2>
+                    <p>A inclusão social e a redução das desigualdades são processos interdependentes que visam garantir que todos os indivíduos tenham as mesmas oportunidades de participar da sociedade e da economia, superando barreiras relacionadas a fatores como classe, gênero, raça e deficiência.</p>
+                </div>
+                
+                <!-- Exemplos -->
+                <h3>Exemplos</h3>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
             </article>
-        </section>
 
-        <section>
-            <article><h2></h2></article>
+            <!-- 3. Preservação e proteção do meio ambiente -->
+            <article id="eco_preservacao">
+                <div>
+                    <h2 class="eco_titulo">3. Preservação e Proteção do Meio Ambiente</h2>
+                    <p>Preservação e conservação do meio ambiente são conceitos distintos, onde a preservação foca na proteção integral de um ecossistema contra qualquer intervenção humana, enquanto a conservação busca o uso equilibrado e sustentável dos recursos naturais, permitindo o aproveitamento humano sem danificar o ambiente para futuras gerações.</p>
+                </div>
+                <img src="./imagens/mao-segurando-terra.png" class="eco_imagem">
+
+                
+                <!-- Exemplos -->
+                <h3>Exemplos</h3>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </article>
         </section>
     </main>
 </body>

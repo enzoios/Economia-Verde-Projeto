@@ -3,14 +3,14 @@
 }
 
 
-.definicao {
+/* .definicao {
     color: #dae67f;
     text-align: center;
 }
 
 .primeira {
     background-color: #172601;
-}
+} */
 
 .eco_imagem {
     height: 300px;
@@ -19,11 +19,13 @@
 
 
 #eco_sobre {
+    background-color: #172601   ;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 20px;
+    color: #dae67f;
 }
 
 #eco_sobre h2 {
